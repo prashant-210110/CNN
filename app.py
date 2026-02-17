@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 from PIL import Image, ImageOps
-from tensorflow.keras.models import load_model
+
 
 # Load the trained model
 with open("model_cnn.pkl", "rb") as f:
